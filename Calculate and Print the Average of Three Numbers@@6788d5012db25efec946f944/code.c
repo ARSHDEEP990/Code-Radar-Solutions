@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main(){
-    float a;
+    int a;
     scanf("%d",&a);
 
-    float b;
+    int b;
     scanf("%d",&b);
 
-    float c;
+    int c;
     scanf("%d",&c);
 
     float average = (a+b+c)/3;
