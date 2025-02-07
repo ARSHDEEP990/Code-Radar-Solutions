@@ -1,23 +1,16 @@
 #include <stdio.h>
-
-// Function to check if two numbers have opposite signs
-int haveOppositeSigns(int a, int b) {
-    return (a < 0 && b > 0) || (a > 0 && b < 0);
+int oppsigns(int a,int b){
+    return (a>0 &&b<0) || (a<0 && b>0);
 }
-
-int main() {
-    int num1, num2;
-    
-    // Taking input from the user
-
-    scanf("%d %d", &num1, &num2);
-    
-    // Checking if numbers have opposite signs
-    if (haveOppositeSigns(num1, num2)) {
+int main(){
+    int num1 , num2;
+    scanf("%d",&num1);
+    scanf("%d",&num2);
+    if(oppsigns(num1,num2)){
         printf("True");
-    } else {
+    }
+    else{
         printf("False");
     }
-    
     return 0;
 }
