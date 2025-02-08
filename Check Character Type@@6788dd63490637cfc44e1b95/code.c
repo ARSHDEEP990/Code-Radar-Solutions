@@ -9,5 +9,8 @@ int main(){
     else{
         printf("Consonant");
     }
+    if(ch==5){
+        printf("Digit");
+    }
     return 0;
 }
