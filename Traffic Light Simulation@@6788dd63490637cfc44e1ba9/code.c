@@ -11,7 +11,7 @@ int main(){
     if(ch=='Y'){
         printf("Slow Down");
     }
-    else{
+    if(ch!='R' && ch!='G' && ch!='Y' ){
         printf("Invalid input");
     }
     return 0;
