@@ -13,7 +13,7 @@ int main(){
         printf("Second");
     }
     if(n==b){
-        printf("Equal")
+        printf("Equal");
     }
     return 0;
 }
