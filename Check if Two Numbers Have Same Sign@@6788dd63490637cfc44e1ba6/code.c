@@ -8,9 +8,7 @@ int main(){
     if(n>=0 && b>=0){
         printf("Same Sign");
     }
-    else{
-        printf("Different Sign");
-    }
+    
     if(n<=0 && b<=0){
         printf("Same Sign");
     }
