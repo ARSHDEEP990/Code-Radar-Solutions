@@ -1,20 +1,22 @@
 #include <stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
 
+int main() {
+    int num;
 
-    if(n%3==0){
-        printf("Divisible by 3");
-    }
-    if(n%5==0){
-        printf("Divisible by 5");
-    }
-    if(n%3==0 && n%5==0){
+    // Input from user
+
+    scanf("%d", &num);
+
+    // Checking divisibility
+    if (num % 3 == 0 && num % 5 == 0) {
         printf("Divisible by Both");
-    }
-    else{
+    } else if (num % 3 == 0) {
+        printf("Divisible by 3");
+    } else if (num % 5 == 0) {
+        printf("Divisible by 5");
+    } else {
         printf("Not Divisible");
     }
+
     return 0;
 }
