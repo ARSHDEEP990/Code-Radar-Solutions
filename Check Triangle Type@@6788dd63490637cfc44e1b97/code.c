@@ -9,12 +9,13 @@ int main(){
     if(a==b && b==c){
         printf("Equilateral");
     }
+    else if (a == b || b == c || a == c) {
+            printf("The triangle is Isosceles.\n");
+    }
     if(a!=b && b!=c && a!=c){
         printf("Scalene");
     }
-    if (a == b || b == c || a == c) {
-            printf("Isosceles");
-    }
+    
     return 0;
 
 }
