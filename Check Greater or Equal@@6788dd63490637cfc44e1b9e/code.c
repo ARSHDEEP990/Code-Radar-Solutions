@@ -6,14 +6,14 @@ int main(){
     int m;
     scanf("%d",&m);
 
-    if(n>m){
+    if(n>m ){
         printf("Yes");
     }
     if(n<m){
         printf("No");
     }
     if(n==m){
-        printf("Equal");
+        printf("Yes");
     }
     return 0;
 }
