@@ -14,7 +14,7 @@ int main(){
         printf("Prime");
     }
     else{
-        printf("Composite");
+        printf("Not Prime");
     }
     return 0;
 }
