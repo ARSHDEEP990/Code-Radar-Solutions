@@ -9,7 +9,7 @@ int main(){
     if(n>a){
         printf("First");
     }
-    if(a<n){
+    if(a>n){
         printf("Second");
     }
     if(n==a){
