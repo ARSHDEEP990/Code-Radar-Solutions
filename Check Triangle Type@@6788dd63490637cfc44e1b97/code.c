@@ -10,7 +10,7 @@ int main(){
         printf("Equilateral");
     }
     else if (a == b || b == c || a == c) {
-            printf("The triangle is Isosceles.\n");
+            printf("Isosceles")
     }
     if(a!=b && b!=c && a!=c){
         printf("Scalene");
