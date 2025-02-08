@@ -26,7 +26,7 @@ int main(){
     if(n==0){
         printf("Invalid");
     }
-    if(n>9){
+    if(n>7){
         printf("Invalid");
     }
     return 0;
