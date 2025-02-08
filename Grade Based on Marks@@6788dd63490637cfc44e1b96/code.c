@@ -21,5 +21,5 @@ int main(){
     if(n<60){
         printf("F");
     }
-    RETURN 0;
+    return 0;
 }
