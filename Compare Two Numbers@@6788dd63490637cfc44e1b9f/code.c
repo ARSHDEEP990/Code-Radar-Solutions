@@ -6,13 +6,13 @@ int main(){
     int a;
     scanf("%d",&a);
 
-    if(n>b){
+    if(n>a){
         printf("First");
     }
-    if(b<n){
+    if(a<n){
         printf("Second");
     }
-    if(n==b){
+    if(n==a){
         printf("Equal");
     }
     return 0;
