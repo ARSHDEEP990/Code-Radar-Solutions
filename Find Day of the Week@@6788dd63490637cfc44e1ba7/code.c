@@ -23,5 +23,11 @@ int main(){
     if(n==7){
         printf("Sunday");
     }
+    if(n==0){
+        printf("Invalid");
+    }
+    if(n>9){
+        printf("Invalid");
+    }
     return 0;
 }
