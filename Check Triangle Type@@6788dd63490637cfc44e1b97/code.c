@@ -9,7 +9,7 @@ int main(){
     int c;
     scanf("%d",&c);
 
-    if(a==b==c){
+    if(a==b && b==c && c==a){
         printf("Equilateral");
     }
 
