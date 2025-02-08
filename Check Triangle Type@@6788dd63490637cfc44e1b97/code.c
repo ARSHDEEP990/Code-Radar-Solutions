@@ -16,9 +16,7 @@ int main() {
         } else {
             printf("Scalene");
         }
-    } else {
-        printf("Invalid triangle: The sum of any two sides must be greater than the third side.\n");
-    }
+
     
     return 0;
 }
