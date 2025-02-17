@@ -26,7 +26,7 @@ int main() {
             break;
 
         default:
-            printf("Invalid month number! Please enter a number between 1 and 12.\n");
+            printf("Invalid Month");
     }
 
     return 0;
