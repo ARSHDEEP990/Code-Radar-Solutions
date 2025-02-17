@@ -1,30 +1,26 @@
 #include <stdio.h>
-
-int main() {
-    char operator;
-    double num1, num2, result;
-
-    scanf(" %c", &operator);
-
-    int result ;
-    scanf("%lf %lf", &num1, &num2);
-
-    if (operator == '+') {
-        result = num1 + num2;
-        printf("%d",result);
-    } else if (operator == '-') {
-        result = num1 - num2;
-        printf("%d",result);
-    } else if (operator == '*') {
-        result = num1 * num2;
-        printf("%d",result);
-    } else if (operator == '/') {
-        if (num2 != 0) {
-            result = num1 / num2;
-            printf("%d",result);
-        
-    
-        }
+int main(){
+    int a;
+    scanf("%d",&a);
+    int b;
+    scanf("%d",&b);
+    char ch;
+    scanf("%c",&ch);
+    switch(ch){
+        case '+':
+            printf("%d",a+b);
+            break;
+        case '-':
+            printf("%d",a-b);
+            break;
+        case '*':
+            printf("%d",a*b);
+            break;
+        case '/':
+            printf("%d",a/b);
+            break;
+        default:
+            printf("Invalid input");
+            break;
     }
-    return 0;
 }
