@@ -6,7 +6,7 @@ int main() {
 
     scanf(" %c", &operator);
 
-
+    int result ;
     scanf("%lf %lf", &num1, &num2);
 
     if (operator == '+') {
