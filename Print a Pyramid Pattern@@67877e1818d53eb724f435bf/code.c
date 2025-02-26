@@ -7,7 +7,7 @@ int main(){
     int b =3;
     for(int i=1;i<=n;i++){
         for(int k=1 ;k<=b;k++){
-            printf("");
+            printf(" ");
             
         }
         b=b-1;
