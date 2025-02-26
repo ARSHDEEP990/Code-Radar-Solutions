@@ -1,22 +1,22 @@
 #include <stdio.h>
-int main(){
-    int n;
 
-    scanf("%d",&n);
-    int a =1;
-    int b =3;
-    for(int i=1;i<=n;i++){
-        for(int k=1 ;k<=b;k++){
+int main() {
+    int n, i, j;
+    
+
+    scanf("%d", &n);
+
+    for (i = 1; i <= n; i++) {
+        // Print spaces
+        for (j = 1; j <= n - i; j++) {
             printf(" ");
-            
         }
-        b=b-1;
-        for(int j=1;j<=a;j++){
+        // Print stars
+        for (j = 1; j <= (2 * i - 1); j++) {
             printf("*");
-            
         }
-        a=a+2;
         printf("\n");
     }
+
     return 0;
 }
