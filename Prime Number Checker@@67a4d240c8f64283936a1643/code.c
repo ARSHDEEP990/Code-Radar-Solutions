@@ -1,5 +1,5 @@
 #include <stdio.h>
-int isprime(int n){
+int isPrime(int n){
     int a = 0;
     for(int i=1;i<=n-2;i++){
         if(n%2==0){
@@ -18,7 +18,7 @@ int main(){
     while(t--){
         int num;
         scanf("%d",&num);
-        printf("%d\n",isprime(num));
+        printf("%d\n",isPrime(num));
     }
     return 0;
 }
