@@ -1,5 +1,5 @@
 
-int isPrime(int n);
+
 
 
 
