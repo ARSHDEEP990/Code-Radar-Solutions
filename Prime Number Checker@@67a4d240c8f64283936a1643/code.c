@@ -18,5 +18,5 @@ int isPrime(int n){
         }
         else a==1;
     }
-    printf("%d",&a);
+    return printf("%d",&a);
 }
