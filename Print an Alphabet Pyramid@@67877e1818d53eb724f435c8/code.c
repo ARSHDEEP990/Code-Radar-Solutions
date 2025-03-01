@@ -13,7 +13,7 @@ int main() {
             printf(" ");
         }
         // Print stars
-        int char ch = 65;
+        char ch = 65;
         for (j = 1; j <= i; j++) {
             printf("%c ",ch);
             ch++;
