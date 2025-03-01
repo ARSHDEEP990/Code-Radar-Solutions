@@ -8,7 +8,7 @@ int isPrime(int n){
         else a==1;
     }
     printf("%d",&a);
-    return;
+    
 
 
 }
