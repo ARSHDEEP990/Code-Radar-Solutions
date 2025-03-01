@@ -2,7 +2,7 @@
 
 int isPrime(int n);
 
-int main(){
+int main() {
     int t;
     scanf("%d",&t);
     while(t--){
