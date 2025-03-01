@@ -1,6 +1,6 @@
 # include <stdio.h>
 
-int isPrime(n);
+int isPrime(int n);
 
 int main(){
     int t;
@@ -12,7 +12,7 @@ int main(){
 }return 0;
 }
 
-int isPrime(n){
+int isPrime(int n){
     if (n==1)return 0;
     else{
         int c=0;
