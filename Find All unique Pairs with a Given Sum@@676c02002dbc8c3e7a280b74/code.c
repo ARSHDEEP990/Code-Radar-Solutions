@@ -14,7 +14,7 @@ int main(){
                 printf("%d %d",arr[i],arr[j]);
             }
         }
-        printf("\n");
+        
     }
     return 0;
 }
