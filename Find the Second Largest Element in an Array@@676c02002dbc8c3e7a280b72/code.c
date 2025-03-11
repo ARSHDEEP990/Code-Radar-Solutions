@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <limits.h>
+#include<stdio.h>
 int main(){
     int size;
     scanf("%d",&size);
@@ -14,7 +13,6 @@ int main(){
             max=arr[i];
         }
     }
-    
     for(int i=0;i<size;i++){
         if(arr[i]!=max && smax!=arr[i]){
             smax=arr[i];
