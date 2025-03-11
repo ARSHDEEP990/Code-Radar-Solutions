@@ -11,9 +11,8 @@ int main(){
     for(int i=0;i<size;i++){
         for(int j=i+1;j<size;j++){
             if(arr[i]+arr[j]==x){
-                printf("%d %d",arr[i],arr[j]);
-                printf("\n");
-                return 0;
+                printf("%d %d\n",arr[i],arr[j]);
+                
             }
         }
         
