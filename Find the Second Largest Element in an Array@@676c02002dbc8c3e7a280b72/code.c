@@ -19,7 +19,6 @@ int main(){
         }
 
     }
-    if (size ==1 ||)
     printf("%d",smax);
     return 0;
     }
