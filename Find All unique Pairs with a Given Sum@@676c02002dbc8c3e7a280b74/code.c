@@ -13,6 +13,7 @@ int main(){
             if(arr[i]+arr[j]==x){
                 printf("%d %d",arr[i],arr[j]);
                 printf("\n");
+                return 0;
             }
         }
         
