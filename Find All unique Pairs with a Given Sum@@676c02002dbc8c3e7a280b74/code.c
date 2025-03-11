@@ -12,7 +12,7 @@ int main(){
         for(int j=i+1;j<size;j++){
             if(arr[i]+arr[j]==x){
                 printf("%d %d\n",arr[i],arr[j]);
-                return 0;
+                
                 
             }
         }
