@@ -12,7 +12,7 @@ int main(){
         if(i%2==0){
             even++;
         }
-        else{
+        else if{
             odd++;
         }
     }
