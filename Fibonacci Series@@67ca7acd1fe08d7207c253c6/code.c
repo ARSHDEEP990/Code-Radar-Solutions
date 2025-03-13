@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Function to print Fibonacci series
-void printFibonacci(int n) {
+void fibonacciSeries(int n) {
     int first = 0, second = 1, next;
     
 
