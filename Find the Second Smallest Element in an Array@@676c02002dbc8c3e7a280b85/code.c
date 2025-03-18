@@ -2,7 +2,9 @@
 #include <limits.h>
 
 int main(){
-    int arr[5] = {1,2,3,4,5};
+    int n;
+    scanf("%d",&n);
+    int arr[n];
     int max = INT_MIN;
     int smax = INT_MIN;
     for(int i=0;i<5;i++){
