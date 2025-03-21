@@ -13,7 +13,12 @@ void bubbleSort(int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {64, 34, 25, 12, 22, 11, 90};
+    int size;
+    scanf("%d",&size);
+    int arr[size];
+    for(int i=0;i<size;i++){
+        scanf("%d",arr[i]);
+    }
     int n = sizeof(arr) / sizeof(arr[0]);
 
     bubbleSort(arr, n);
