@@ -10,12 +10,12 @@ int main(){
     }
     int max = INT_MIN;
     int smax = INT_MIN;
-    for(int i=0;i<5;i++){
+    for(int i=0;i<size;i++){
         if(max<arr[i]){
             max = arr[i];
         }
     }
-    for(int i=0;i<5;i++){
+    for(int i=0;i<size;i++){
         if(arr[i]!= max && smax!=arr[i]){
             smax = arr[i];
         }
