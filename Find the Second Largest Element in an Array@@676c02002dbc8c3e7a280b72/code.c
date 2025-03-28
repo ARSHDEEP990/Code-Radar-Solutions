@@ -8,7 +8,7 @@ int main() {
 
     if (size < 2) {
 
-        return smax = -1;
+        return -1;
     }
 
     int arr[size];
