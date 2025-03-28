@@ -1,27 +1,39 @@
 #include <stdio.h>
 #include <limits.h>
 
-int main(){
+int main() {
     int size;
-    scanf("%d",&size);
+
+    scanf("%d", &size);
+
+    if (size < 2) {
+
+        return -1;
+    }
+
     int arr[size];
-    for(int i=0;i<size;i++){
-        scanf("%d",&arr[i]);
+
+    // Input the array
+    for (int i = 0; i < size; i++) {
+        scanf("%d", &arr[i]);
     }
-    int max = INT_MIN;
-    int smax = INT_MIN;
-    for(int i=0;i<size;i++){
-        if(max<arr[i]){
+
+    int max = arr[0];  // Set max to the first element instead of INT_MIN
+    int smax = INT_MIN; // Still initialized to INT_MIN
+
+    // Find max and second max in one pass
+    for (int i = 1; i < size; i++) {
+        if (arr[i] > max) {
+            smax = max; // Store previous max as second max
             max = arr[i];
-        }
-    }
-    for(int i=0;i<size;i++){
-        if(arr[i]!= max && smax!=arr[i]){
+        } else if (arr[i] > smax && arr[i] < max) {
             smax = arr[i];
         }
     }
-    printf("%d",smax);
-    return 0;
-    
 
+    // If smax is still INT_MIN or unchanged from max, no second max exists
+    
+    printf("The second maximum number is: %d\n", smax);
+
+    return 0;
 }
