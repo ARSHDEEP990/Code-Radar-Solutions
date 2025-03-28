@@ -33,7 +33,7 @@ int main() {
 
     // If smax is still INT_MIN or unchanged from max, no second max exists
     
-    printf("The second maximum number is: %d\n", smax);
+    printf("%d", smax);
 
     return 0;
 }
