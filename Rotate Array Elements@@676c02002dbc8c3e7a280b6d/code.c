@@ -23,7 +23,6 @@ int main(){
 
     int arr[size];
     for(int i=0;i<size;i++){
-        printf("enter the element : ");
         scanf("%d",&arr[i]);
     }
     int k;
@@ -32,7 +31,7 @@ int main(){
     rotatearray(arr,size,k);
 
     for(int i=0;i<size;i++){
-        printf("%d",arr[i]);
+        printf("%d\n",arr[i]);
     }
             
 
