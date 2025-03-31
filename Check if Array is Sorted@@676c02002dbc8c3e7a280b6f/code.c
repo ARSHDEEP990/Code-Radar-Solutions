@@ -10,11 +10,11 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    int isSorted = 0;
+    int isSorted = 1;
 
     for (int i = 0; i < N -1; i++) {
         if (arr[i] > arr[i + 1]) {
-            isSorted = 1;
+            isSorted = 0;
             break;
         }
     }
